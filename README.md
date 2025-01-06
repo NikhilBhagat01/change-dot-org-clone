@@ -13,7 +13,7 @@ This is a Node.js project that uses Redis and MongoDB.
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/change-dot-org-clone.git
+   git clone https://github.com/NikhilBhagat01/change-dot-org-clone.git
    cd change-dot-org-clone
    ```
 
