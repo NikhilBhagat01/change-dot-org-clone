@@ -3,7 +3,11 @@ const express = require("express");
 // const Redis = require("ioredis");
 const config = require("./config");
 const redis = require("./redis/redis");
+const connectDB = require("./db/db");
 const cors = require("cors");
+
+//databse
+connectDB();
 
 const app = express();
 
