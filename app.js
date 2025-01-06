@@ -23,7 +23,7 @@ app.use(
 app.use(express.json());
 
 // ALL ROUTES
-// app.use('/api/auth')
+app.use("/api/users", require("./routes/userRoutes"));
 
 app.get("/", (req, res) => {
   res.send("welcome to change.org clone");
